@@ -1,0 +1,84 @@
+// First we create UI UX GPT-3 (Guidaded and copy from github - adrianhajdin/project_modern_ui_ux_gpt3)
+
+// Create Two folders - in 'src'
+    // assets
+        
+    // components
+        // article => Article.jsx   article.css
+        // brand => Brand.jsx   brand.css
+        // CTA => CTA.jsx   cta.css
+        // feature => Feature.jsx   feature.css
+        // navbar => Navbar.jsx    navbar.css
+        index.js
+
+    //containers
+        // blog => Blog.jsx    blog.css
+        // features => Features.jsx    features.css
+        // footer => Footer.jsx    footer.css
+        // header => Header.jsx    header.css
+        // possibility => Possibility.jsx  possibility.css
+        // whatGPT3 => WhatGPT3.jsx    whatGPT3.css
+        index.js
+
+// Copy some code of 'index.css' file from - adrianhajdin/project_modern_ui_ux_gpt3 and paste in our project 'index.css' file
+
+===============================================================================================================================>
+
+// (google - angrytools.com) Adding Gradients in our projects = used this website for creating gradients with source code
+
+// (google - https://animista.net/) Adding some Animation, It's a great tool for creating Animation
+
+===============================================================================================================================>
+
+// for className -- used BEM ( Block Element Modifier)
+
+====================== STEP 1 ==========================>
+
+// First be create - 'Navbar.jsx' (working with files - Navbar.jsx and navbar.css)
+
+// Create GPT3 logo and Links for navbar nad signin and signup button
+
+// Create toggleMenu for mobile devices in 'Navbar.jsx
+
+
+*********** Navbar.css ******* completed
+
+====================== STEP 2 ==========================>
+
+// Second be create - 'Header.jsx' (woring with Header.jsx and header.css file)
+
+====================== STEP 3 ==========================>
+
+// Third we create - 'Brand.jsx' file content (working only 'Brand.jsx' and brand.css)
+
+====================== STEP 4 ==========================>
+
+// Fourth we create - 'WhatGPT3.jsx' file content (working only 'WhatGPT3.jsx' and whatGPT3.css)
+
+    // working with 'Feature.jsx' file
+    
+====================== STEP 5 ==========================>
+
+// Fifth is created 'Features.js' file
+
+====================== STEP 6 ==========================>
+
+// Sixth is created 'Possibilty.js' file
+
+====================== STEP 7 ==========================>
+
+// Seventh is created 'CTA.js' file
+
+====================== STEP 8 ==========================>
+
+// Eight is created 'Blog.js' file
+
+    // working with 'Article.jsx' file
+
+====================== STEP 9 ==========================>
+
+// Ninth is created 'Footer.js' file
+
+=========================================================>
+
+                        COMPLETED

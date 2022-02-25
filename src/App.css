@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: auto;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  body {
+    /* We allready initial variable in 'index.css' file */
+    background: var(--color-bg);
   }
-  to {
-    transform: rotate(360deg);
+  
+  /*applied bydefault on <a> tag*/
+  a {
+    color: unset;
+    text-decoration: none;
   }
-}
+  
+  /* We create this gradient from 'Online gradient generator' */
+  .gradient__bg {
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(
+      circle at 50% 50%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 100%
+    );
+  
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(
+      circle at 50% 50%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 100%
+    );
+  
+    /* opera 11.10+ */
+    background: -o-radial-gradient(
+      circle at 50% 50%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 100%
+    );
+  
+    /* ie 10+ */
+    background: -ms-radial-gradient(
+      circle at 50% 50%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 100%
+    );
+  
+    /* global 92%+ browsers support */
+    background: radial-gradient(
+      circle at 50% 50%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 100%
+    );
+  }
+  
+  .gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .section__padding {
+    padding: 2rem 6rem;
+  }
+  
+  .section__margin {
+    margin: 2rem 6rem;
+  }
+  
+  /* 1.a => This is Scale up Animation - This is like a class create for - 'Animista' */
+  .scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+      both;
+    animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+  
+  /*1.b => And this is 'keyframes' of Scale up Animation */
+  @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  
+  /* Add some Media Queires ==> for Middle class devices */
+  @media screen and (max-width: 700px) {
+    .section__padding {
+      padding: 4rem;
+    }
+    .section__margin {
+      margin: 4rem;
+    }
+  }
+  
+  /* Add some Media Queires ==> for mobile devices */
+  @media screen and (max-width: 700px) {
+    .section__padding {
+      padding: 4rem 2rem;
+    }
+    .section__margin {
+      margin: 4rem 2rem;
+    }
+  }
+  
